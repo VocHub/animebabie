@@ -1,0 +1,102 @@
+body {
+	background-color: #121212 !important;
+	color: white !important;
+	margin: 20px;
+}
+
+
+#episodewatch {
+	float: left;
+	width: 80%;
+}
+
+#episodesw {
+	clear: both;
+}
+
+#footerr {
+	justify-content: center;
+	width: 100%;
+}
+
+.iepisode {	
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	border: 2px solid white;
+	cursor: pointer;
+	width: 90px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	border-radius: 20px;
+	    white-space: pre-wrap;
+		
+
+}
+
+.iepisode a {
+	color: white;
+}
+
+.iepisode:hover{
+	border: 2px solid #FF5DAE!important;
+}
+
+
+@media only screen and (max-width: 1210px) {
+
+	#info,
+	#episodewatch,
+	#episodesw {
+		width: 90%;
+		margin: 0;
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 1210px) {
+	iframe {
+		width: 350px;
+		height: 500px;
+	}
+
+	body {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+}
+
+@media only screen and (max-width: 1210px) {
+	#info {
+		margin-top: 20px;
+	}
+}
+
+.navbar-class {
+	margin-bottom: 20px;
+}
+
+
+#footerr a:hover {
+	color: white;
+}
+
+a:hover{
+	color: white;
+}
+
+        iframe {
+            aspect-ratio: 16/9;
+        }
+
+        #episodewatch {
+            aspect-ratio: 16/9 !important;
+        }
+
+		#query{
+			text-transform: capitalize;
+		}

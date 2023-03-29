@@ -1,0 +1,156 @@
+body {
+	background-color: #121212!important;
+	color: white !important;
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	overflow-x: hidden;
+}
+
+#sidebar {
+	float: left;
+	width: 20%;
+}
+
+#synopsis {
+	float: right;
+	width: 80%;
+}
+
+#footerr {
+
+	width: 100%;
+}
+
+#footerr a:hover {
+	color: white;
+}
+
+#watch svg {
+	vertical-align: middle;
+}
+
+#anilist svg {
+	vertical-align: middle;
+}
+
+#mal svg {
+	vertical-align: middle;
+}
+
+#watch {
+	display: inline-block;
+	border-radius: 20px;
+	border: 0px;
+	cursor: pointer;
+	background-color: #ff0051;
+}
+
+#watch a {
+	color: white;
+}
+
+#watch:hover {
+	box-shadow: 0 2px 30px #ff005191;
+}
+
+
+
+
+#anilist {
+	display: inline-block;
+	border-radius: 20px;
+	border: 0px;
+	cursor: pointer;
+	background-color: #0099ff;
+}
+
+#anilist a {
+	color: white;
+}
+
+#anilist:hover {
+	box-shadow: 0 2px 30px #0099ff;
+}
+
+#mal {
+	display: inline-block;
+	border-radius: 20px;
+	border: 0px;
+	cursor: pointer;
+	background-color: #004395;
+}
+
+#mal a {
+	color: white;
+}
+
+#mal:hover {
+	box-shadow: 0 2px 30px #004395;
+}
+
+@media only screen and (max-width: 1210px) {
+	#sidebar,
+	#synopsis {
+		width: 90%;
+		margin: 0;
+		float: left;
+	}
+}
+.navbar-class {
+	margin-bottom: 20px;
+}
+
+#query{
+	text-transform: capitalize;
+}
+
+#shadow{
+	background: linear-gradient(180deg,rgba(var(--color-shadow-dark),0) 40%,rgba(var(--color-shadow-dark),.6));
+    height: 100%;
+    width: 100%;
+	opacity: 0.7;
+}
+
+#banner{
+	width: 100%;
+	background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 20px;
+	border-radius: 1rem;
+}
+
+@media only screen and (max-width: 1210px) {
+#banner {
+	display: none;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+#sidebar img{
+	box-sizing: border-box;
+	border: 0 solid #ffffff;
+	position: absolute;
+    top: 21rem;
+	left: 3rem;
+    box-shadow: 0 0 5rem #000;
+}
+	#synopsis{
+		position: relative;
+		left: 2rem;	
+		top: -8rem;
+	}
+	
+	
+	#afterbanner{
+		margin-bottom: 150px;
+	}
+	#footerr {
+		margin-top: -100px;
+	}
+	
+}
+  
